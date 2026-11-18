@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <files-path name="note_media" path="note_media/" />
+    <cache-path name="shared" path="shared/" />
+    <cache-path name="camera" path="camera/" />
+</paths>

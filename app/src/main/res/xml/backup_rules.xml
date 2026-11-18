@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="sharedpref" path="encryption_salt.xml" />
+    <exclude domain="sharedpref" path="notebook_prefs.xml" />
+    <exclude domain="database" path="notedraft.db" />
+    <exclude domain="database" path="notebook_team.db" />
+    <exclude domain="database" path="notebook_business.db" />
+    <exclude domain="database" path="notedraft.db-wal" />
+    <exclude domain="database" path="notedraft.db-shm" />
+    <exclude domain="database" path="notedraft.db-journal" />
+    <exclude domain="database" path="notebook_team.db-wal" />
+    <exclude domain="database" path="notebook_team.db-shm" />
+    <exclude domain="database" path="notebook_team.db-journal" />
+    <exclude domain="database" path="notebook_business.db-wal" />
+    <exclude domain="database" path="notebook_business.db-shm" />
+    <exclude domain="database" path="notebook_business.db-journal" />
+    <exclude domain="file" path="note_media/" />
+    <exclude domain="file" path="crashes/" />
+    <exclude domain="sharedpref" path="auto_backup.xml" />
+    <exclude domain="sharedpref" path="drive_backup.xml" />
+    <exclude domain="file" path="backup_outbox/" />
+</full-backup-content>

@@ -1,0 +1,3 @@
+-keepattributes *Annotation*, InnerClasses
+-dontnote kotlinx.serialization.**
+-keep class app.notedraft.noteall.data.** { *; }

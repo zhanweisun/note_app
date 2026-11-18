@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_shortcut_note" android:enabled="true" android:shortcutId="new_note" android:shortcutShortLabel="@string/main_new_note" android:shortcutLongLabel="@string/main_new_note">
+        <intent android:targetPackage="@string/shortcut_target_package" android:action="app.notedraft.noteall.action.QUICK" android:data="notedraft://quick/NEW_NOTE" android:targetClass="app.notedraft.noteall.MainActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_checklist" android:enabled="true" android:shortcutId="new_checklist" android:shortcutShortLabel="@string/main_new_checklist" android:shortcutLongLabel="@string/main_new_checklist">
+        <intent android:targetPackage="@string/shortcut_target_package" android:action="app.notedraft.noteall.action.QUICK" android:data="notedraft://quick/NEW_LIST" android:targetClass="app.notedraft.noteall.MainActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_mic" android:enabled="true" android:shortcutId="voice_note" android:shortcutShortLabel="@string/note_voice_input" android:shortcutLongLabel="@string/note_voice_input">
+        <intent android:targetPackage="@string/shortcut_target_package" android:action="app.notedraft.noteall.action.QUICK" android:data="notedraft://quick/VOICE" android:targetClass="app.notedraft.noteall.MainActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_search" android:enabled="true" android:shortcutId="search" android:shortcutShortLabel="@string/common_search" android:shortcutLongLabel="@string/common_search">
+        <intent android:targetPackage="@string/shortcut_target_package" android:action="app.notedraft.noteall.action.QUICK" android:data="notedraft://quick/SEARCH" android:targetClass="app.notedraft.noteall.MainActivity" />
+    </shortcut>
+</shortcuts>
